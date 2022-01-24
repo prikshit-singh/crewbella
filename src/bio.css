@@ -1,0 +1,31 @@
+.mainbio{
+    display: flex;
+    width: 100%;
+    margin-top: .5rem;
+    height:42rem
+    
+}
+
+.first,.first1,.first2{
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+
+.first1{
+    overflow-x: hidden;
+    
+  
+}
+.first2{
+    width: 31%;
+}
+
+.first1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .first1 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

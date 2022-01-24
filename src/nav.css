@@ -1,0 +1,23 @@
+.mainnav{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: nowrap;
+   position: sticky;
+   top:0;
+   width: 100%;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   box-shadow: 1px 5px 20px rgb(201, 198, 198);
+
+ }
+
+
+.midnav{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    
+   padding: 1rem;
+}
+
